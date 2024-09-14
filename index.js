@@ -185,3 +185,19 @@ function filterPrimeNumbers(arr) {
 function printNumbers(arr) {
     arr.forEach(num => console.log(num));
 }
+
+function multiply(a:number, b:number){
+    return a*b;
+}
+function sum(a:number, b:number){
+    return a+b;
+}
+function subtract(a:number, b:number){
+    return a-b;
+}
+function divide(a:number, b:number){
+    if(b === 0){
+        return "Cannot divide by zero!";
+    }
+    return a/b;
+}
